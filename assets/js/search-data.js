@@ -60,8 +60,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-during-the-summer-of-2025-i-will-a-graduate-visitor-at-the-nsf-national-center-for-atmospheric-research-working-under-dr-peter-h-lauritzen",
-          title: 'During the summer of 2025 I will a graduate visitor at the NSF...',
+            },},{id: "news-during-the-summer-of-2025-i-was-a-graduate-visitor-at-the-nsf-national-center-for-atmospheric-research-working-under-dr-peter-h-lauritzen",
+          title: 'During the summer of 2025 I was a graduate visitor at the NSF...',
           description: "",
           section: "News",},{id: "news-i-will-be-attending-egu-2026-in-vienna-austria-if-you-re-interested-in-my-research-please-shoot-me-an-email-and-we-can-drink-bad-conference-coffee-together",
           title: 'I will be attending EGU 2026 in Vienna, Austria. If you’re interested in...',
