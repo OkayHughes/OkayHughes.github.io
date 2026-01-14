@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-During the summer of 2025 I will a graduate visitor at the NSF National Center for Atmospheric Research, 
+During the summer of 2025 I was a graduate visitor at the NSF National Center for Atmospheric Research, 
 working under Dr. Peter H. Lauritzen.

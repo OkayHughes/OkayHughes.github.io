@@ -5,7 +5,7 @@
     "image": "",
     "email": "owhughes@umich.edu",
     "_phone": "",
-    "url": "https://okayhughes.github.io/",
+    "url": "https://owenhughes.org",
     "summary": "A computational atmospheric scientist working from weather to decadal timescales.",
     "location": {
       "address": "2455 Hayward St.",
@@ -53,16 +53,16 @@
       "_highlights": ["asdf"]
     }
   ],
-  "_volunteer": [
+  "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "2025 Dynamical Core Model Intercomparison Project (DCMIP)",
+      "location": "Boulder, CO, USA",
+      "position": "Co-organizer",
+      "url": "https://sites.google.com/umich.edu/dcmip-2025",
+      "startDate": "2025-06-02",
+      "endDate": "2025-06-06",
+      "summary": "Helped organize the 2025 Dynamical Core Model Intercomparison Project (DCMIP) workshop.",
+      "_highlights": [""]
     }
   ],
   "education": [
