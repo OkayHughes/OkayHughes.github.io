@@ -1,39 +1,32 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Owen K.Hughes",
+    "label": "Atmospheric Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "owhughes@umich.edu",
+    "_phone": "",
+    "url": "https://okayhughes.github.io/",
+    "summary": "A computational atmospheric scientist working from weather to decadal timescales.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "2455 Hayward St.",
+      "postalCode": "MI 48109",
+      "city": "Ann Arbor",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "region": "Michigan"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "NSF National Center for Atmospheric Research, Boulder, Colorado",
+      "position": "Graduate Visitor Program",
+      "url": "https://edec.ucar.edu/advanced-study-program/graduate-visitor-program",
+      "startDate": "2025-04-15",
+      "endDate": "2025-07-28",
+      "summary": "Ported my NHD HOMME model to the Stormspeed fork of the Community Earth System Model, working under Dr. Peter Lauritzen",
+      "highlights": ["asdf"]
     }
   ],
-  "volunteer": [
+  "_volunteer": [
     {
       "organization": "People's Climate March",
       "location": "Zurich, Switzerland",
@@ -47,18 +40,18 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Michigan",
+      "location": "Ann Arbor, MI, USA",
+      "url": "https://www.clasp.engin.umich.edu/",
+      "area": "Atmospheric Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2022-09-01",
+      "_endDate": "1905-01-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Studied the dynamics of the deep atmosphere in the HOMME dynamical core."]
     }
   ],
-  "awards": [
+  "_awards": [
     {
       "title": "Nobel Prize in Physics",
       "date": "1921-11-01",
@@ -67,7 +60,7 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
+  "_certificates": [
     {
       "name": "Machine Learning",
       "date": "2018-01-01",
@@ -136,46 +129,83 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Weather and Climate Modeling",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Computational earth system modeling",
+        "High resolution earth system modeling",
+        "Community Earth System Model (CESM)",
+        "Energy Exascale Earth System Model (E3SM)"
+      ]
+    },
+    {
+      "name": "High Performance Computing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Distributed memory parallelism",
+        "Performance portable code",
+        "GPU parallelism",
+        "Parallel testing and debugging"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "C++",
+      "fluency": "Highly Capable",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Python",
+      "fluency": "Extremely capable",
+      "icon": ""
+    },
+    {
+      "language": "Jax",
+      "fluency": "Capable",
+      "icon": ""
+    },
+    {
+      "language": "Fortran",
+      "fluency": "Highly capable",
+      "icon": ""
+    },
+    {
+      "language": "Rust",
+      "fluency": "Capable",
+      "icon": ""
+    },
+    {
+      "language": "Cuda",
+      "fluency": "Capable",
+      "icon": ""
+    },
+    {
+      "language": "MPI",
+      "fluency": "Capable",
+      "icon": ""
+    },
+    {
+      "language": "Haskell",
+      "fluency": "Capable",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Atmospheric Science",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Intermediate-complexity test cases for Atmospheric General Circulation Models",
+        "Dynamics of the deep atmosphere; impact of the non-traditional Coriolis terms.",
+        "High-resolution climate modeling in CESM and E3SM",
+        "Uncertainty Quantification in Earth System Models"
       ]
     }
   ],
-  "references": [
+  "_references": [
     {
       "name": "Professor John Doe",
       "icon": "fa-solid fa-laptop",
@@ -187,7 +217,7 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-  "projects": [
+  "_projects": [
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
