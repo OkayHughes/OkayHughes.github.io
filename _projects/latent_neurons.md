@@ -3,7 +3,7 @@ layout: page
 title: Learning Non-stationary Langevin Models of Neural Dynamics 
 description: A spectral galerkin method for learning interpretable (latent) dynamical models of neural dynamics.
 importance: 3
-img: assets/img/langevin.webp
+img: assets/img/publication_preview/langevin.webp
 category: work
 related_publications: true
 ---

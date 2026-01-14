@@ -3,7 +3,7 @@ layout: page
 title: Topographic moist baroclinic wave test case
 description: An atmospheric dynamical core test case that combines 3D baroclinic flow, idealized moisture physics, and topography
 importance: 2
-img: assets/img/bw_topo.png
+img: assets/img/publication_preview/bw_topo.png
 category: work
 related_publications: true
 ---
