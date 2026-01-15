@@ -78,11 +78,6 @@ ninja.data = [{
           description: "A deep-atmosphere spectral finite element dynamical core",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DA_HOMME/";
-            },},{id: "projects-learning-non-stationary-langevin-models-of-neural-dynamics",
-          title: 'Learning Non-stationary Langevin Models of Neural Dynamics',
-          description: "A spectral galerkin method for learning interpretable (latent) dynamical models of neural dynamics.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/latent_neurons/";
             },},{id: "projects-topographic-moist-baroclinic-wave-test-case",
           title: 'Topographic moist baroclinic wave test case',
           description: "An atmospheric dynamical core test case that combines 3D baroclinic flow, idealized moisture physics, and topography",
