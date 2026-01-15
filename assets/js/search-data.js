@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-what-is-this-blog-for",
+        },{id: "post-explaining-the-weak-laplacian-in-homme-cam-se",
+        
+          title: "Explaining the weak laplacian in HOMME/CAM-SE",
+        
+        description: "The use of manifold-dependent tensors in the viscosity in SE the dynamical cores is tricky if you&#39;re most familiar with vector calculus. This post can help.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vector_lap/";
+          
+        },
+      },{id: "post-moist-held-suarez-with-topography",
+        
+          title: "Moist Held Suarez with Topography",
+        
+        description: "How can we use topography with idealized physics?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mhs_with_topo/";
+          
+        },
+      },{id: "post-what-is-this-blog-for",
         
           title: "What is this blog for?",
         
