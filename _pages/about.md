@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate in Climate Science, <a href='https://clasp.engin.umich
 
 profile:
   align: right
-  image: photo_linkedin.jpg
+  image: profile.webp
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>1546 Climate and Space Research Building</p>
