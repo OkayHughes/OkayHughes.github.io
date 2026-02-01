@@ -29,7 +29,7 @@ latest_posts:
 
 I'm a fourth-year Ph.D. student in Climate and Space Sciences at the University of Michigan, working in computational atmospheric science at both weather and climate scale. 
 
-## Research Interests:
+## research interests:
   * Intermediate-complexity test cases for Atmospheric General Circulation Models
   * Dynamics of the deep atmosphere; impact of the non-traditional Coriolis terms.
   * High-resolution climate modeling in CESM and E3SM
