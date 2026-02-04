@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-28'
+  last_updated: '2026-02-04'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -50,7 +50,7 @@ papers:
     title: CLDERA-E3SM
     year: '2024'
   pu3d07cAAAAJ:qjMakFHDy7sC:
-    citations: 9
+    citations: 10
     title: "The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results, Geosci. Model Dev., 16, 3953\u20133995, 10.5194"
     year: '2023'
   pu3d07cAAAAJ:u-x6o8ySG0sC:
@@ -62,6 +62,6 @@ papers:
     title: 'Engellab/neuralflow: learning non-stationary Langevin dynamics from stochastic observations of latent trajectories'
     year: Unknown Year
   pu3d07cAAAAJ:zYLM7Y9cAGgC:
-    citations: 9
+    citations: 10
     title: "The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results, Geosci. Model Dev., 16, 3953\u20133995"
     year: '2023'
