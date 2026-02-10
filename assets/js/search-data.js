@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-explaining-the-weak-laplacian-in-homme-cam-se",
+        },{id: "post-split-form-advection-is-neat",
+        
+          title: "Split form advection is neat.",
+        
+        description: "Are we thinking about tracer transport wrong? (Split form advection is neat.)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/eulerian_split_form_advection/";
+          
+        },
+      },{id: "post-explaining-the-weak-laplacian-in-homme-cam-se",
         
           title: "Explaining the weak laplacian in HOMME/CAM-SE",
         
