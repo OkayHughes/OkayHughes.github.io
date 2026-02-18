@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-18'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: "Upcoming Innovations for CAM\u2019s Spectral Element Dynamical Core and CESM: Nonhydrostatic and Deep-Atmosphere Modeling"
     year: Unknown Year
   pu3d07cAAAAJ:IjCSPb-OGe4C:
-    citations: 26
+    citations: 24
     title: Real-time certified probabilistic pedestrian forecasting
     year: '2017'
   pu3d07cAAAAJ:Tyk-4Ss8FVUC:
@@ -42,7 +42,7 @@ papers:
     title: "A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models, Geosci. Model Dev., 16, 6805\u20136831"
     year: '2023'
   pu3d07cAAAAJ:d1gkVwhDpl0C:
-    citations: 26
+    citations: 28
     title: 'The fully coupled regionally refined model of E3SM version 2: Overview of the atmosphere, land, and river results'
     year: '2023'
   pu3d07cAAAAJ:eQOLeE2rZwMC:
@@ -54,11 +54,11 @@ papers:
     title: "The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results, Geosci. Model Dev., 16, 3953\u20133995, 10.5194"
     year: '2023'
   pu3d07cAAAAJ:u-x6o8ySG0sC:
-    citations: 31
+    citations: 32
     title: Learning non-stationary Langevin dynamics from stochastic observations of latent trajectories
     year: '2021'
   pu3d07cAAAAJ:ufrVoPGSRksC:
-    citations: 0
+    citations: 1
     title: 'Engellab/neuralflow: learning non-stationary Langevin dynamics from stochastic observations of latent trajectories'
     year: Unknown Year
   pu3d07cAAAAJ:zYLM7Y9cAGgC:
