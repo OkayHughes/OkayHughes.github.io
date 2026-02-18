@@ -53,6 +53,25 @@ $$
 
 This means that if we structure our averages correctly such that our half-density advection constructs solutions $$\sqrt{\Delta \pi}_{\textrm{discrete}}$$, $$\sqrt{q}_{\textrm{discrete}}$$ such that the bracketed quantities are zero to machine precision, and those solutions have good positivity properties, then $$\partial_t q\Delta \pi + \mathcal{L}_{\mathbf{u}}[q \Delta \pi] = 0$$ will also be satisfied to machine precision. So it seems we can get tracer consistency and sign-preservingness with no fixer, if we're willing to incur the cost of spectrally truncating (under-integrating?) cross terms that occur by applying the skew-symmetric operator to $$\sqrt{q}$$, $$\sqrt{\pi}$$. It remains to be seen if this solution just basically flips the sign of spectral undershoots, and leaves overshoots unhandled (very possible). Toward that end, I don't think this is necessarily even a good tracer scheme. But it has remarkably good properties for a scheme that's this simple. 
 
+Due to operator splitting (let's work with forward Euler for the moment)
+
+$$
+\begin{align*}
+    \frac{\sqrt{q_{k+1}\Delta \pi_{k+1}} - \sqrt{q_{k}\Delta \pi_{k}}}{\Delta t} = \sqrt{q_{k+1}} \frac{\sqrt{\Delta \pi_{k+1}} - \sqrt{\Delta \pi_{k}}}{\Delta t} + \sqrt{\Delta \pi_{k+1}} \frac{\sqrt{q_{k+1}} - \sqrt{q_{k}}}{\Delta t},
+\end{align*}
+$$
+
+Plugging this in above and being more careful with time levels and letting $\partial_{\Delta t}$ be the forward Euler operator, we get
+$$
+\begin{align*}
+    0  &= \sqrt{q_{k+1}}\partial_{\Delta t} \sqrt{\Delta \pi} + \sqrt{\Delta \pi_{k+1}} \partial_{\Delta t} \sqrt{q} + \sqrt{q_k} \mathcal{L}_{\mathbf{u}}[\sqrt{\Delta \pi_{k}}] + \sqrt{\Delta \pi_{k}} \mathcal{L}_{\mathbf{u}}[\sqrt{q_k}] \\
+\end{align*}
+$$
+
+This explains why this isn't a self-evident solution: to get this automatic stuff, we might need to use an implicit time step.
+
+It turns out that treating $$\sqrt{\Delta \pi q}$$ is probably a better idea. Since all our time stepping methods are built from forward Euler (ish) and convex combinations, then if we are given $\sqrt{\Delta \pi_{k+1}}$ and $\sqrt{\Delta \pi_{k}}$ from dynamics (this is equivalent to the `vn0` averaging in HOMME). Then solving $\partial_{\Delta t} \sqrt{q \Delta \pi} + \mathcal{L}_{\mathbf{u}}^{1/2}[\sqrt{q \Delta \pi}] = 0 $ generates a solution that satisfies global mass conservation and non-negativity. This should actually be interpreted as $\partial_{\Delta t} \sqrt{q \Delta \pi} + \mathcal{L}_{\mathbf{u}}^{1/2}[\sqrt{q \Delta \pi}] = 0 $
+
 
 
 <h3 id="footnotes"> 
@@ -63,7 +82,7 @@ This means that if we structure our averages correctly such that our half-densit
 3. $$\mu$$ is a measure that correctly generalizes the notion of global integral. For HOMME, this will be the integral over the sphere, constructed with whatever generality you want.
 4. If you're not a geometer (which I'm not either, lol), the Lie derivative is useful because it is characterized by the fact that the properties that characterize allow it to generalize the notion of directional derivative to basically any geometric object (vector, tensor, form, frame) for which the notion makes sense. It also doesn't require a metric. A crucial observation of the structure preserving folks is that one can discretize this operator even in very general settings. 
 5. This will be fine if you're careful about how far $t$ is from your initial conditions, e.g., how you're invoking Caratheodory's or Peano's theorems. I think. Also, the notation $(\Phi_X^t)^{-1}$ instead of $\Phi_X^{-t}$ is a helpful reminder that you have to be careful that you're landing in the right (co)-tangent space when you're using this map.
-6. Indeed, you can do a similar thing using the usual pattern for $L^p$ results, where $q^{\alpha}$ embeds in $L^{\alpha^{-1}}$. However, as with a lot of _applications_ of $L^p$ results, the Hilbert space structure of the $\alpha=\frac{1}{2}$ case makes it much more useful. For our uses, the notion of skew-adjoint becomes available.
+6. Indeed, you can do a similar thing using the usual pattern for $L^p$ results, where $q^{\alpha}$ embeds in $L^{\alpha^{-1}}$. However, as with a lot of _applications_ of $L^p$ results, the Hilbert space structure of the $\alpha=\frac{1}{2}$ case makes it much more useful. For our uses, the notion of skew-adjoint becomes available. Indeed, if you have some different value of $\alpha$, then the evolution under a vector field is governed by $\partial_t q + (1-\alpha) X \cdot \nabla q + \alpha \nabla \cdot qX = 0$. In particular, this means that the "advective" characterisation of transport means treating $q$ like a continuous function (a 0-density), and the "continuity" characterisation of transport treats $q$ as a 1-density (a density) in the technical sense. We're just learning how to exploit the continuum in between.
 7. Here the original writeup deviates from immediately generalizing to a coordinate-free formulation, and it's not worth my time to restore it. If you're curious sort of what this looks like (and are willing to add a metric to your manifold), then the last two sections of [this page](https://en.wikipedia.org/wiki/Exterior_calculus_identities) are very helpful to me.
 8. Importantly, $$\mathcal{L}_{X}^{1/2}$$ isn't actually a derivation. This makes sense as the quantity $$fg$$ forms a 1-density. 
 
