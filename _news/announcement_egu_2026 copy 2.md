@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ESCO 2026
-date: 2026-01-14 16:11:00-0400
+date: 2026-02-19 16:11:00-0400
 inline: true
 related_posts: false
 ---
