@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-02-20'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -13,6 +13,10 @@ papers:
     citations: 24
     title: Real-time certified probabilistic pedestrian forecasting
     year: '2017'
+  pu3d07cAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: Justice-Based Education within Climate and Space Sciences
+    year: '2024'
   pu3d07cAAAAJ:Tyk-4Ss8FVUC:
     citations: 1
     title: Technical report for real-time certified probabilistic pedestrian forecasting
