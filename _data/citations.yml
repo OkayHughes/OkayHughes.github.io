@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-03-16'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
-    citations: 4
+    citations: 5
     title: A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models
     year: '2023'
   pu3d07cAAAAJ:9yKSN-GCB0IC:
@@ -10,7 +10,7 @@ papers:
     title: "Upcoming Innovations for CAM\u2019s Spectral Element Dynamical Core and CESM: Nonhydrostatic and Deep-Atmosphere Modeling"
     year: Unknown Year
   pu3d07cAAAAJ:IjCSPb-OGe4C:
-    citations: 24
+    citations: 25
     title: Real-time certified probabilistic pedestrian forecasting
     year: '2017'
   pu3d07cAAAAJ:LkGwnXOMwfcC:
@@ -46,7 +46,7 @@ papers:
     title: "A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models, Geosci. Model Dev., 16, 6805\u20136831"
     year: '2023'
   pu3d07cAAAAJ:d1gkVwhDpl0C:
-    citations: 28
+    citations: 30
     title: 'The fully coupled regionally refined model of E3SM version 2: Overview of the atmosphere, land, and river results'
     year: '2023'
   pu3d07cAAAAJ:eQOLeE2rZwMC:
