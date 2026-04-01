@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-16'
+  last_updated: '2026-04-01'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -17,6 +17,10 @@ papers:
     citations: 0
     title: Justice-Based Education within Climate and Space Sciences
     year: '2024'
+  pu3d07cAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: 'DCMIP-2025: Introducing an Idealized Squall Line Test Case for Nonhydrostatic Dynamical Cores'
+    year: '2026'
   pu3d07cAAAAJ:Tyk-4Ss8FVUC:
     citations: 1
     title: Technical report for real-time certified probabilistic pedestrian forecasting
@@ -32,7 +36,7 @@ papers:
   pu3d07cAAAAJ:WF5omc3nYNoC:
     citations: 0
     title: Examining the Contribution of Deep-Atmosphere Dynamical Cores to Mitigating Double ITCZ Bias in Aquaplanets
-    year: '2025'
+    year: '2026'
   pu3d07cAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: A novel deep-atmosphere variant of the HOMME dynamical core for the E3SM climate model
@@ -46,7 +50,7 @@ papers:
     title: "A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models, Geosci. Model Dev., 16, 6805\u20136831"
     year: '2023'
   pu3d07cAAAAJ:d1gkVwhDpl0C:
-    citations: 30
+    citations: 29
     title: 'The fully coupled regionally refined model of E3SM version 2: Overview of the atmosphere, land, and river results'
     year: '2023'
   pu3d07cAAAAJ:eQOLeE2rZwMC:
@@ -57,6 +61,10 @@ papers:
     citations: 10
     title: "The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results, Geosci. Model Dev., 16, 3953\u20133995, 10.5194"
     year: '2023'
+  pu3d07cAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: New mountain-generated mesoscale flow test cases from DCMIP2025
+    year: '2026'
   pu3d07cAAAAJ:u-x6o8ySG0sC:
     citations: 32
     title: Learning non-stationary Langevin dynamics from stochastic observations of latent trajectories
