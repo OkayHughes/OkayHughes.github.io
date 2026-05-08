@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-01'
+  last_updated: '2026-05-08'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -50,7 +50,7 @@ papers:
     title: "A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models, Geosci. Model Dev., 16, 6805\u20136831"
     year: '2023'
   pu3d07cAAAAJ:d1gkVwhDpl0C:
-    citations: 29
+    citations: 31
     title: 'The fully coupled regionally refined model of E3SM version 2: Overview of the atmosphere, land, and river results'
     year: '2023'
   pu3d07cAAAAJ:eQOLeE2rZwMC:
@@ -66,7 +66,7 @@ papers:
     title: New mountain-generated mesoscale flow test cases from DCMIP2025
     year: '2026'
   pu3d07cAAAAJ:u-x6o8ySG0sC:
-    citations: 32
+    citations: 33
     title: Learning non-stationary Langevin dynamics from stochastic observations of latent trajectories
     year: '2021'
   pu3d07cAAAAJ:ufrVoPGSRksC:
