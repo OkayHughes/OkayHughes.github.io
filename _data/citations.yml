@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-07-27'
 papers:
   pu3d07cAAAAJ:2osOgNQ5qMEC:
-    citations: 5
+    citations: 6
     title: A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models
     year: '2023'
   pu3d07cAAAAJ:9yKSN-GCB0IC:
@@ -10,7 +10,7 @@ papers:
     title: "Upcoming Innovations for CAM\u2019s Spectral Element Dynamical Core and CESM: Nonhydrostatic and Deep-Atmosphere Modeling"
     year: Unknown Year
   pu3d07cAAAAJ:IjCSPb-OGe4C:
-    citations: 24
+    citations: 25
     title: Real-time certified probabilistic pedestrian forecasting
     year: '2017'
   pu3d07cAAAAJ:LkGwnXOMwfcC:
@@ -29,6 +29,10 @@ papers:
     citations: 10
     title: 'The fully coupled regionally refined model of E3SM version 2: Overview of the atmosphere, land, and river'
     year: '2022'
+  pu3d07cAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: 'A mountain-generated mesoscale test case from DCMIP-2025: Gap flow and vortex shedding variants'
+    year: '2026'
   pu3d07cAAAAJ:W7OEmFMy1HYC:
     citations: 0
     title: A prototype deep-atmosphere version of the HOMME (SENH) dynamical core.
@@ -36,15 +40,15 @@ papers:
   pu3d07cAAAAJ:WF5omc3nYNoC:
     citations: 0
     title: Examining the Contribution of Deep-Atmosphere Dynamical Cores to Mitigating Double ITCZ Bias in Aquaplanets
-    year: '2026'
+    year: '2025'
   pu3d07cAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: A novel deep-atmosphere variant of the HOMME dynamical core for the E3SM climate model
     year: '2024'
   pu3d07cAAAAJ:YsMSGLbcyi4C:
     citations: 0
-    title: ITCZ and the Nontraditional Coriolis Terms
-    year: '2026'
+    title: ITCZ and the nontraditional Coriolis terms
+    year: '2025'
   pu3d07cAAAAJ:_FxGoFyzp5QC:
     citations: 5
     title: "A mountain-induced moist baroclinic wave test case for the dynamical cores of atmospheric general circulation models, Geosci. Model Dev., 16, 6805\u20136831"
@@ -66,7 +70,7 @@ papers:
     title: New mountain-generated mesoscale flow test cases from DCMIP2025
     year: '2026'
   pu3d07cAAAAJ:u-x6o8ySG0sC:
-    citations: 34
+    citations: 35
     title: Learning non-stationary Langevin dynamics from stochastic observations of latent trajectories
     year: '2021'
   pu3d07cAAAAJ:ufrVoPGSRksC:
@@ -74,6 +78,6 @@ papers:
     title: 'Engellab/neuralflow: learning non-stationary Langevin dynamics from stochastic observations of latent trajectories'
     year: Unknown Year
   pu3d07cAAAAJ:zYLM7Y9cAGgC:
-    citations: 11
+    citations: 12
     title: "The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results, Geosci. Model Dev., 16, 3953\u20133995"
     year: '2023'
